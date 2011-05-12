@@ -1,0 +1,15 @@
+Feel free to change or remove this file, it is informational only.
+
+Repo layout
+===========
+tmp/ - Temporary storage
+public/ - Content (images, css, etc. avaialble to the public)
+config.ru - This file is used by Rack-based servers to start the application.
+
+
+Notes about layout
+==================
+Every time you push, everything in your remote application path gets recreated
+please store long term items (like an sqlite database) in ../data which will
+persist between pushes of your repo.
+
